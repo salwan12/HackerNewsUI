@@ -1,10 +1,48 @@
-# HackerNewsUI
+## Overview
+
+This Angular project showcases a basic setup for displaying data in a table using MatTableDataSource with sorting and pagination.
+
+## Features
+
+- Integration of MatTableDataSource for efficient data handling.
+- Sorting and pagination features enabled.
+- Basic error handling for data retrieval.
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Node.js and npm installed
+- Angular CLI installed (`npm install -g @angular/cli`)
+
+## Getting Started
+
+1. Clone the repository:
+
+   git clone https://github.com/your-username/your-project.git
+
+2. Install dependencies:
+
+   cd HackerNewsUI
+   npm install
+
+3. Run the development server:
+
+   ng serve
+
+   Navigate to `http://localhost:4200/` in your browser.
+
+## Usage
+
+To use this project, follow the steps in the "Getting Started" section. The application will display a table with sorting and pagination features.
+
+### Data Retrieval
+
+The data for the table is fetched using a data service. Error handling is implemented to handle any issues that may arise during the data retrieval process.
+
+## HackerNewsUI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 

@@ -1,0 +1,39 @@
+
+#spinner {
+	-webkit-animation: frames 1s infinite linear;
+	animation: frames 1s infinite linear;
+	background: transparent;
+	border: 1.5vw solid #c35912;
+	border-radius: 100%;
+	border-top-color: #DF691A;
+	width: 100px;
+	height: 100px;
+	opacity: .6;
+	padding: 0;
+}
+@keyframes frames {
+  0% {
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+  }
+  100% {
+	-webkit-transform: rotate(359deg);
+	transform: rotate(359deg);
+  }
+}
+
+#pause {
+	display: flex;
+	/* background:
+		rgba(0, 0, 0, 0.66)
+		no-repeat
+		0 0; */
+	/* height: 100vh; */
+	align-items: center;
+	justify-content: center;
+	/* position: fixed; */
+	/* top:0;
+	bottom: 0;
+	right:0;
+	left: 0; */
+}

@@ -1,0 +1,11 @@
+<header>
+  <img src="../../assets/images/free-hacker.jpg" alt="Logo" />
+  <h1>Hacker News</h1>
+</header>
+<div class="page-title">Newest Stories List</div>
+
+<app-loading *ngIf="isLoading; else datatable"></app-loading>
+<ng-template #datatable>
+  <app-news-listing></app-news-listing>
+</ng-template>
+<footer>&copy; 2024 Hacker News. All rights reserved.</footer>
